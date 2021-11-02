@@ -1,0 +1,18 @@
+<package>
+  <description brief="RViz AMRL Messages Visualizatin">
+
+     Visualize AMRL messages in RViz.
+
+  </description>
+  <author>Joydeep Biswas</author>
+  <license>MIT</license>
+  <review status="unreviewed" notes=""/>
+  <url>https://github.com/ut-amrl/rviz_amrl_msgs_visualization</url>
+  <depend package="rviz"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="amrl_msgs"/>
+  <export>
+      <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>
